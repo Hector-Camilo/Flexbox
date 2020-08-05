@@ -1,0 +1,147 @@
+  *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box; 
+  } 
+body{
+    display: flex; 
+    height: 100vh;
+    flex-flow: column;
+    font-size: 16px;    
+    font-size: 16px;
+
+}
+.header{
+    outline:1px solid gold;
+    height: 3rem;
+}   
+.header__menu{
+    display:flex;
+}
+.header__menu__item1{
+    list-style:none;
+    flex: 1; 
+    outline: 1px solid cyan;
+    line-height: 3rem;
+    text-align: center;
+    transition: flex 0.5s; 
+    background-color: darkkhaki;
+
+}
+
+.header__menu__item2{
+    list-style:none;
+    flex: 1; 
+    outline: 1px solid cyan;
+    line-height: 3rem;
+    text-align: center;
+    transition: flex 0.5s; 
+    background-color: darkturquoise;
+
+}
+
+
+.header__menu__item3{
+    list-style:none;
+    flex: 1; 
+    outline: 1px solid cyan;
+    line-height: 3rem;
+    text-align: center;
+    transition: flex 0.5s; 
+    background-color: forestgreen;
+}
+    
+
+.header__menu__item4{
+    list-style:none;
+    flex: 1; 
+    outline: 1px solid cyan;
+    line-height: 3rem;
+    text-align: center;
+    transition: flex 0.5s; 
+    background-color: hotpink;
+
+}
+
+
+.header__menu__item1:hover{
+    flex-grow:3;  
+}   
+
+.header__menu__item2:hover{
+    flex-grow:3;  
+}   
+
+.header__menu__item3:hover{
+    flex-grow:3;  
+}   
+
+
+.header__menu__item4:hover{
+    flex-grow:3;  
+}   
+.container{
+    display: flex;
+    height:inherit ;
+}
+
+.container__content{
+    outline:1px solid cyan;
+    flex:1 1 85%; 
+}
+.container__content__menu{
+    display: flex;
+}
+.container__content__menu__1{
+    outline: 1px solid black;
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    line-height: 100vh;
+    font-size: 150px;
+    background-color: lawngreen;
+    transition: transform 0.5s;
+}
+.container__content__menu__2{ 
+    outline: 1px solid black;
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    height: 100vh;
+    align-items: center; 
+    justify-content: center;
+    line-height: 100vh;
+    font-size: 150px;
+    background-color: darkorange;
+    transition: transform 0.5s;
+
+
+}
+.container__content__menu__1:hover{
+    transform: scale(1.5);
+    opacity: 0,9;
+    
+}
+
+.container__content__menu__2:hover{
+    transform: scale(1.5); 
+    
+}
+
+.aside{
+    outline: 1px solid magenta;
+    flex: 1 1 auto;
+    background-color:red;
+
+     
+}
+.footer{
+    outline: 1px solid salmon;
+    height: 6rem;
+    margin-top:auto; 
+    background-color: darkgreen;
+    
+}
